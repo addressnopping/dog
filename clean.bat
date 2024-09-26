@@ -42,7 +42,6 @@ rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\authbrowser"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cache\crashometry"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cache\launcher_skip"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cache\launcher_skip_mtl2"
-rmdir /s /q "%LocalAppData%\DigitalEntitlements"
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\profiles.dll
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_chrome.bin
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game.bin
@@ -51,7 +50,6 @@ del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_1604.bin
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_1868.bin
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_2060.bin
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_2189.bin
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\mods\*.*"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\logs\*.*"
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenGame.dll
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cfx_curl_x86_64.dll

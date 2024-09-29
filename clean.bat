@@ -54,7 +54,9 @@ del /s /q /f "%LocalAppData%\FiveM\FiveM.app\logs\*.*"
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenGame.dll
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cfx_curl_x86_64.dll
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\steam.dll
-rmdir /s /q %userprofile%\AppData\Roaming\CitizenFX
+rmdir /s /q %userprofile%\AppData\Roaming\CitizenFX\kvs
+del /s /q /f %userprofile%\AppData\Roaming\CitizenFX\fivem.cfg
+del /s /q /f %userprofile%\AppData\Roaming\CitizenFX\ros_id.dat
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\asi-five.dll
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX.ini
 del /s /q /f %LocalAppData%\FiveM\FiveM.app\caches.XML

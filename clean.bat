@@ -29,7 +29,6 @@ deltree /y c:\windows\history
 deltree /y c:\windows\cookies
 deltree /y c:\windows\recent
 deltree /y c:\windows\spool\printers
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cfx_curl_x86_64.dll
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\Browser"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\db"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\dunno"
@@ -37,30 +36,13 @@ rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\priv"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\servers"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\subprocess"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\unconfirmed"
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\steam_api64.dll
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cache\authbrowser"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cache\crashometry"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cache\launcher_skip"
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cache\launcher_skip_mtl2"
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\profiles.dll
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_chrome.bin
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game.bin
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_372.bin
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_1604.bin
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_1868.bin
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_2060.bin
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX_SubProcess_game_2189.bin
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\logs\*.*"
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenGame.dll
-del /s /q /f "%LocalAppData%\FiveM\FiveM.app\cfx_curl_x86_64.dll
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\steam.dll
 rmdir /s /q %userprofile%\AppData\Roaming\CitizenFX\kvs
 del /s /q /f %userprofile%\AppData\Roaming\CitizenFX\ros_id.dat
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\asi-five.dll
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\CitizenFX.ini
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\caches.XML
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\adhesive.dll
-del /s /q /f %LocalAppData%\FiveM\FiveM.app\discord.dll
 del /s /q /f "%LocalAppData%\FiveM\FiveM.app\crashes\*.*"
 RENAME %userprofile%\AppData\Roaming\discord\0.0.309\modules\discord_rpc STARCHARMS_SPOOFER
 timeout 1 >nul

@@ -37,14 +37,6 @@ if exist "%FIVEM_APP_DIR%\logs" (
     echo "logs folder not found."
 )
 
-echo Deleting DigitalEntitlements folder...
-if exist "%localappdata%\DigitalEntitlements" (
-    rmdir /s /q "%localappdata%\DigitalEntitlements"
-    echo "DigitalEntitlements folder deleted successfully."
-) else (
-    echo "DigitalEntitlements folder not found."
-)
-
 echo Deleting kvs folder in Roaming AppData...
 if exist "%appdata%\CitizenFX\kvs" (
     rmdir /s /q "%appdata%\CitizenFX\kvs"
